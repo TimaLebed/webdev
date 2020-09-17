@@ -114,13 +114,12 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    cursor: pointer;
+    text-decoration: none;
     transition: all 0.3s;
 }
 
 .life-btn:hover {
-    background-color: rgba(0, 0, 0, 0);
-    /* color: #00AFDB; */
+transform: translateX(25px);
 }
 
 .life-btn__title {
@@ -162,4 +161,71 @@
 
 .life-socials__icon:hover {
     transform: scale(1.4);
+}
+
+.represent {
+    width: 1600px;
+    height: 842px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.represent-column {
+    width: 407px;
+    height: 233px;
+    margin-left: -1px;
+    margin-top: -19px;
+}
+
+.represent-column__title {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.represent-column__subtitle {
+    margin-top: 22px;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+}
+
+.represent-btn {
+    width: 184px;
+    height: 46px;
+    background: #00AFDB;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.represent-btn:hover {
+    transform: translateX(25px);
+}
+
+.represent-btn__title {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Roboto-Regular", sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+
+.represent-image {
+    width: 407px;
+    height: 582px;
+    margin-left: -23px;
+    margin-top: -19px;
+    background-image: url(./assets/images/represent-image.png);
 }
