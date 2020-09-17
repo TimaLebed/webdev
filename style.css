@@ -395,3 +395,61 @@ transform: translateX(25px);
     font-weight: bold;
     letter-spacing: 0.1px;
 }
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1600px;
+    height: 598px;
+    background-image: url(./assets/images/subscribe-image.png);
+    margin: 0 auto;
+}
+
+.subscribe-title {
+    margin-top: 215px;
+    font-family: "Roboto-Regular", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.form {
+    margin-top: 30px;
+    width: 406px;
+    height: 46px;
+    display: flex;
+}
+
+.form-email {
+    width: 340px;
+    height: 46px;
+    border: 0;
+    padding-left: 24px;
+    padding-top: 2px;
+    color: #373737;
+    font-size: 14px;
+    font-family: "Roboto-Regular", sans-serif;
+    outline: none;
+}
+
+.form-submit {
+    width: 66px;
+    height: 46px;
+    background: #00AFDB;
+    border: 0;
+    position: relative;
+    outline: none;
+}
+
+.form-submit::before {
+    content: "";
+    background-image: url(./assets/images/form-icon.svg);
+    width: 19px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    color: #fff;
+}
