@@ -463,7 +463,7 @@ transform: translateX(25px);
 .download {
     margin: 0 auto;
     width: 1600px;
-    height: 463px;
+    height: 460px;
     display: flex;
     align-items: center;
     flex-direction: column;
