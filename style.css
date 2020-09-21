@@ -400,13 +400,13 @@ transform: translateX(25px);
     flex-direction: column;
     align-items: center;
     width: 1600px;
-    height: 598px;
+    height: 524px;
     background-image: url(./assets/images/subscribe-image.png);
     margin: 0 auto;
 }
 
 .subscribe-title {
-    margin-top: 215px;
+    margin-top: 198px;
     font-family: "Roboto-Regular", sans-serif;
     font-weight: bold;
     font-size: 24px;
@@ -463,7 +463,7 @@ transform: translateX(25px);
 .download {
     margin: 0 auto;
     width: 1600px;
-    height: 468px;
+    height: 464px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -506,7 +506,7 @@ transform: translateX(25px);
 .download-android,
 .download-apple {
     width: 188px;
-    height: 50px;
+    height: 46px;
     background: #00AFDB;
     display: flex;
     align-items: center;
@@ -532,7 +532,7 @@ transform: translateX(25px);
 .android-btn,
 .apple-btn {
     width: 60px;
-    height: 50px;
+    height: 46px;
     background: #009CC2;
     position: relative;
     transition: all 0.3s;
